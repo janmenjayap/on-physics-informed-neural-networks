@@ -12,17 +12,11 @@ These methodologies draw inspiration from [1] and [2], exemplifying distinct app
 
 This repository includes illustrative examples that exhibit the distinct approaches:
 
-- **1D-Advection.ipynb:** Demonstrates the solution to the 1D advection equation employing a PINN, where the network learns to adhere to the governing PDE while approximating the solution.
-  ![image](https://user-images.githubusercontent.com/78913240/234979875-6b799c67-7985-46d6-a233-c00bb3556dbf.png)
-  - *Description*: This notebook focuses on solving the 1D advection equation (\( u_t + au_x = 0 \)) using a PINN.
+- **1D-Advection.ipynb:** Demonstrates the solution to the 1D advection equation employing a PINN, where the network learns to adhere to the governing PDE while approximating the solution. This notebook focuses on solving the 1D advection equation (\( u_t + au_x = 0 \)) using a PINN.
 
-- **PDE_using_Lagaris_Approch.ipynb:** Showcases the resolution of a specific PDE outlined in [1], utilizing the Lagaris Approach, which focuses on direct data fitting without explicit integration of the PDE constraints in the training process.
-  ![image](https://user-images.githubusercontent.com/78913240/234981409-70d400d5-345b-4450-bc30-9241a5ec9dfd.png)
-  - *Description*: This notebook demonstrates solving a particular PDE using Lagaris' approach with a single dense layer and 10 neurons.
+- **PDE_using_Lagaris_Approch.ipynb:** Showcases the resolution of a specific PDE outlined in [1], utilizing the Lagaris Approach, which focuses on direct data fitting without explicit integration of the PDE constraints in the training process. This notebook demonstrates solving a particular PDE using Lagaris' approach with a single dense layer and 10 neurons.
 
-- **PDE_using_PINNs.ipynb :** Addresses the same PDE as previously mentioned, employing the PINNs (Raissi Approach) detailed in [2], where the network learns to satisfy the PDE constraints as part of the training.
-  ![image](https://user-images.githubusercontent.com/78913240/234987466-29867eb4-df2c-46c2-bbe6-e151233a4a83.png)
-  - *Description*: This notebook demonstrates solving the same PDE using PINNs, focusing on the Raissi Approach from [2].
+- **PDE_using_PINNs.ipynb :** Addresses the same PDE as previously mentioned, employing the PINNs (Raissi Approach) detailed in [2], where the network learns to satisfy the PDE constraints as part of the training. This notebook demonstrates solving the same PDE using PINNs, focusing on the Raissi Approach from [2].
 
 ### Results
 
