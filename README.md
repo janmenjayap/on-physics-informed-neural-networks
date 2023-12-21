@@ -1,4 +1,4 @@
-## Utilizing Physics-Informed Neural Networks (PINNs) and Lagaris' Approach for Solving Partial Differential Equations
+## Utilizing Physics-Informed Neural Networks (PINNs) and Lagaris' approach for solving Partial Differential Equations
 
 This repository encompasses Python code and Jupyter notebooks exemplifying the application of Physics-Informed Neural Networks (PINNs) and Lagaris' approach to address Partial Differential Equations (PDEs).
 
